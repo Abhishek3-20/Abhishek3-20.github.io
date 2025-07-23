@@ -1,0 +1,29 @@
+body {
+  scroll-behavior: smooth;
+}
+
+h1, h2, h4, p {
+  margin: 0;
+  padding: 0.5rem 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+/* Project card style */
+.card {
+  border-radius: 10px;
+  border: 1px solid #e0e0e0;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
